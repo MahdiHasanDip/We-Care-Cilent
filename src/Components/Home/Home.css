@@ -1,0 +1,45 @@
+.banner{
+
+    background-color: #e8f3d0;
+    height: 750px;
+}
+.banner img{
+    margin-top: 75px;
+    width: 80%;
+}
+.titel{
+    padding-top: 150px;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+.titel h1{
+    font-size: 7vh;
+    font-weight: 800;
+    
+}
+
+.learn-more{
+    background-color: tomato;
+    color: azure;
+    padding: 5px 25px;
+    border: 1px dotted orange;
+    border-radius: 6px;
+}
+
+.card-body{
+    height: 400px;
+    border: 1px solid red;
+    background-color: rgb(252, 245, 238);
+    border-radius: 5px;
+
+}
+.card-body:hover{
+    box-shadow: 10px 20px 50px rgb(90, 78, 78);
+}
+
+
+
+.learn-more:hover{
+    padding: 8px 30px;
+};
