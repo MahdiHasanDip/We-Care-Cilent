@@ -57,7 +57,7 @@ const PlaceOrder = () => {
                     <hr />
                     <hr />
                     
-                   <div > <h4 className="text-center mt-5"> {singleService?.des}</h4></div>
+                   <div className='serviceDes' > <h4 className="text-center mt-5"> {singleService?.des}</h4></div>
                     {/* <Link to ='/myOrders'> */}
                     <button  onClick={handleAddToCart} className="mt-5 btn btn-secondary">Add To Cart</button>
                     {/* </Link> */}

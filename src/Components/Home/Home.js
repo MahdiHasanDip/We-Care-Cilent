@@ -18,7 +18,12 @@ const Home = () => {
     return (
         <div>
             <div className="banner">
-                <div className="container">
+
+                <img className='img-fluid' src="https://i.ibb.co/LSyS3X0/Best.png" alt="" />
+
+
+
+                {/* <div className="container">
                     <div className="row">
                     <div className="titel col-lg-6">
                             <h1>Make your Vacation </h1>
@@ -26,11 +31,11 @@ const Home = () => {
                             <p>“Never go on trips with anyone you do not love.” – Ernest Hemingway</p>
                     </div>  
                     <div className="col-lg-6 img-fluid">
-                       <img src="https://i.ibb.co/dDfTsCG/edf94f2a-e566-11e7-b094-c21f82b60b0b.jpg" alt="" />
+                       <img src="https://i.ibb.co/LSyS3X0/Best.png" alt="" />
                     </div>
                     
                 </div>
-                </div>
+                </div> */}
             
             </div>
      
@@ -53,7 +58,7 @@ const Home = () => {
                                      <img src={service.img} alt="" />                                     
                                  </div>
                                 <div className="des p-3">
-                                    <h5>Service Name</h5>
+                                    <h5>Service Name</h5> <hr />
                                       <h1>{service.name}</h1>
                                       <h4>Cost: {service.price} taka</h4>
                                       
@@ -73,12 +78,12 @@ const Home = () => {
 
 {/* About Us  */}
 
-          <div className="container border border-danger mt-5 p-5 mb-5">
-             <div><h1 >About Us</h1></div>
+          <div className="container aboutUs mt-5 p-5 mb-5">
+             <div><h1 >About Us</h1> <hr /></div> 
             <div>
             <h3 className="text-danger text-start">Best Trip</h3>
                
-            <p>
+            <p className='container'>
         Since 1975, <span className="text-danger"> ‘Best Trip’ </span> has been focused on bringing our customers the best in esteem and quality travel game plans. We are enthusiastic about movement and sharing the world’s marvels on the relaxation travel side, and giving corporate explorers hello there contact administrations to encourage their business travel needs.
 
         We’re a worker-claimed travel organization secured by our qualities, trustworthiness, and commitment to client benefit.
@@ -100,12 +105,12 @@ const Home = () => {
 
 <div className="container">
 <div className="">
-    <h1>Contact Us</h1>
+    <h1>Contact Us</h1> <hr />
 </div>
 
     <div>
     <h3 className="text-start text-danger">24 x 7 Customer Helpline</h3>
-    <div className="row border border-danger m-5 p-5">
+    <div className="row border aboutUs m-5 p-5">
         <div className="col-lg-6">
             <h3>Phone Number</h3>
             <hr />
@@ -116,9 +121,9 @@ const Home = () => {
         <div className="col-lg-6">
             <h3>Email Us</h3>
             <hr />
-                 <h3>Email: contact@besttrip.com</h3>
-                 <h3>Email: contact2@besttrip.com</h3>
-                 <h3>Email: contact3@besttrip.com</h3>
+                 <h4>Email: contact1@besttrip.com</h4>
+                 <h4>Email: contact2@besttrip.com</h4>
+                 <h4>Email: contact3@besttrip.com</h4>
 
         </div>
     </div>
